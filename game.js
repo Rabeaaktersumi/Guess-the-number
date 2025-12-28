@@ -12,10 +12,10 @@ function checkGuess() {
     return;
   }
 
-  if (guess === 57) {
-    message.textContent = `Correct! The number was ${57}.`;
+  if (guess === 76) {
+    message.textContent = `Correct! The number was ${76}.`;
     message.style.color = "green";
-  } else if (guess <= 56) {
+  } else if (guess <= 75) {
     message.textContent = "Too low! Try again.";
     message.style.color = "blue";
   } else {
@@ -35,5 +35,6 @@ function resetGame() {
   document.getElementById('attempts').textContent = '';
 
 }
+
 
 
