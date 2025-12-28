@@ -1,4 +1,4 @@
-let randomNumber = Math.floor(Math.random() * 100) + 1;
+let randomNumber = Math.floor(Math.random(76) * 100) + 1;
 let attempts = 0;
 
 function checkGuess() {
@@ -35,6 +35,7 @@ function resetGame() {
   document.getElementById('attempts').textContent = '';
 
 }
+
 
 
 
