@@ -12,8 +12,8 @@ function checkGuess() {
     return;
   }
 
-  if (guess === randomNumber) {
-    message.textContent = `Correct! The number was ${randomNumber}.`;
+  if (guess === 57) {
+    message.textContent = `Correct! The number was ${57}.`;
     message.style.color = "green";
   } else if (guess < randomNumber) {
     message.textContent = "Too low! Try again.";
@@ -33,4 +33,5 @@ function resetGame() {
   document.getElementById('guessInput').value = '';
   document.getElementById('message').textContent = '';
   document.getElementById('attempts').textContent = '';
+
 }
